@@ -2,6 +2,10 @@
   "name": "nodemailer",
   "version": "1.0.0",
   "type": "module",
+  "exports": {
+    ".": "./dist/server.mjs"
+  },
+  "main": "./dist/server.mjs",
   "scripts": {
     "dev": "npx tsx watch ./src/server.ts",
     "build": "pkgroll --clean-dist --minify",
