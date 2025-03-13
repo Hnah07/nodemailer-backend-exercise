@@ -1,5 +1,5 @@
 import * as nodemailer from "nodemailer";
-import { SMTP_HOST, SMTP_USER, SMTP_PASS } from "./envs";
+import { SMTP_HOST, SMTP_USER, SMTP_PASS } from "./envs.js";
 import { formData } from "../types/mailTypes";
 
 const transporter = nodemailer.createTransport({
