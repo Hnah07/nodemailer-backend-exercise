@@ -77,17 +77,6 @@ export const sendEmail = async (data: formData) => {
                 background: #333;
                 border-radius: 4px;
             }
-            .footer {
-                text-align: center;
-                font-size: 12px;
-                color: #888;
-                margin-top: 20px;
-            }
-            @media (max-width: 600px) {
-                .container {
-                    width: 95%;
-                }
-            }
         </style>
     </head>
     <body>
@@ -128,11 +117,6 @@ export const sendEmail = async (data: formData) => {
                         }</div>
                     </div>
                 </div>
-
-                <p>Met vriendelijke groet,<br>Het Team</p>
-            </div>
-            <div class="footer">
-                &copy; 2024 | Form Submission
             </div>
         </div>
     </body>
