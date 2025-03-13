@@ -1,4 +1,4 @@
-import nodemailer from "nodemailer";
+import * as nodemailer from "nodemailer";
 import { SMTP_HOST, SMTP_USER, SMTP_PASS } from "./envs";
 import { formData } from "../types/mailTypes";
 
