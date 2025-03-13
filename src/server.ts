@@ -16,9 +16,9 @@ app.use(express.static("src/public"));
 app.use(express.json());
 
 // Routes
-app.get("/", async (req, res) => {
+app.get("/", async (_, res) => {
   try {
-    res.render("index");
+    res.json({ message: "Server is running" });
   } catch (error) {
     console.error(error);
   }
