@@ -2,7 +2,7 @@
 import "dotenv/config";
 import cors from "cors";
 import express from "express";
-import { sendEmail } from "./utils/mail";
+import { sendEmail } from "./utils/mail.js";
 
 // Variables
 const app = express();
