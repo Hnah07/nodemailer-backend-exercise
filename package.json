@@ -5,10 +5,9 @@
   "type": "module",
   "main": "dist/server.js",
   "scripts": {
-    "start": "node dist/server.ts",
-    "dev": "tsx src/server.ts",
-    "build": "tsc",
-    "watch": "tsc -w"
+    "dev": "npx tsx watch ./src/server.ts",
+    "build": "pkgroll --clean-dist --minify",
+    "start": "node dist/server.mjs"
   },
   "keywords": [],
   "author": "",
